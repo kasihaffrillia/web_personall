@@ -1,0 +1,268 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+/* CONSTRUCTOR */
+*,
+*::after,
+*::before {
+  /* outline: 1px solid red; */
+}
+
+/* GENERAL */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding: 0.5rem 2rem;
+  margin: 0 1rem;
+  border-radius: 32px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #fff511;
+}
+
+#logo {
+  width: 50%;
+  margin-left: 15px;
+}
+
+/* HOME */
+#home {
+  text-align: center;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  background-image: url('../image/home.jpg');
+  background-size: 100%;
+  padding: 19% 0;
+}
+
+.home-title {
+  color: #fff511;
+  font-size: 64pt;
+  font-weight: 800;
+}
+
+.home-subtitle {
+  color: white;
+  font-size: 32pt;
+  font-weight: 600;
+}
+
+.home-btn {
+  padding: 0.5rem 2rem;
+  border: 4px solid white;
+  border-radius: 32px;
+}
+
+.home-btn:hover {
+  background-color: #fff511;
+  border-color: #fff511;
+}
+
+/* VISI MISI */
+#visi-misi {
+  color: #ffa825;
+  font-weight: 700;
+}
+
+.visi-misi-title,
+.visi-title,
+.misi-title,
+#visi-misi p {
+  font-weight: 700;
+}
+
+.visi-misi-image {
+  width: 100%;
+  border-radius: 32px;
+}
+
+/* Fasilitas */
+#fasilitas-mbah {
+  color: #ffa825;
+}
+
+.fasilitas-lainnya {
+  color: #ffa825;
+  font-weight: 700;
+}
+
+.fasilitas-mbah-title {
+  font-weight: 700;
+}
+
+.fasilitas-mbah-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 25%;
+  height: 300px;
+  border-radius: 32px;
+  padding-bottom: 10px;
+}
+
+.nama-fasilitas {
+  text-align: center;
+  color: #ffa825;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+}
+
+#list-fasilitas-lainnya {
+  color: #ffa825;
+  font-size: x-large;
+}
+
+#fasilitas-lainnya-akhir {
+  padding-bottom: 2em;
+}
+
+/* About us */
+
+.about-us-title {
+  color: #fff511;
+  font-size: 64pt;
+  font-weight: 800;
+}
+
+#about-us {
+  text-align: center;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  background-image: url('../image/about_us.jpg');
+  background-size: 100%;
+  padding: 20% 0;
+}
+
+#tentang-mbah {
+  color: #ffa825;
+  font-weight: 700;
+  padding-bottom: 5em;
+}
+
+.tentang-mbah-title {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.tentang-mbah-text {
+  padding-bottom: 2em;
+  text-align: justify;
+  font-size: large;
+}
+
+.tentang-mbah-image {
+  width: 100%;
+  border-radius: 32px;
+  padding-left: 10em;
+}
+
+/* Profile */
+#navbar-profile {
+  background-color: #ffa825;
+  box-shadow: none;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+#profile {
+  padding-top: 10em;
+}
+
+.judul-profile {
+  color: #ffa825;
+  font-weight: 700;
+  padding-bottom: 2em;
+}
+
+.profile-text {
+  color: #ffa825;
+  font-size: x-large;
+}
+
+.owner-image {
+  width: 70%;
+  border-radius: 32px;
+  text-align: right;
+  margin-left: 15em;
+}
+
+/* Contact */
+#navbar-contact {
+  background-color: #ffa825;
+  box-shadow: none;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+#contact {
+  text-align: center;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  background-image: url('../image/kasir.jpg');
+  background-size: 100%;
+  padding: 10% 0;
+  margin: auto;
+}
+
+.contact-title {
+  color: #fff511;
+  font-size: 64pt;
+  font-weight: 800;
+}
+
+.contact-subtitle {
+  color: white;
+  font-size: 32pt;
+  font-weight: 600;
+}
+
+#grabfood {
+  padding-bottom: 2em;
+}
+
+#embed-map {
+  padding-top: 1em;
+}
+
+#keterangan-contact {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.list-contact {
+  color: #ffa825;
+  font-weight: 700;
+}
+
+.list-contact-content {
+  color: #ffa825;
+  font-size: large;
+}
+
+/* FOOTER */
+footer p {
+  position: fixed;
+  text-align: center;
+  color: #ffa825;
+  font-weight: 600;
+  width: 100%;
+  bottom: 0;
+}
+
+#footer-profile {
+  padding-top: 5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
